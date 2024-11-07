@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class PlaygroundScaffold extends StatefulWidget {
+  const PlaygroundScaffold({super.key});
+
   @override
   State<StatefulWidget> createState() => _stateScaffold();
 }
@@ -8,8 +10,8 @@ class PlaygroundScaffold extends StatefulWidget {
 class _stateScaffold extends State<PlaygroundScaffold> {
   @override
   Widget build(BuildContext context) {
-    return Scaffold(
-      //TODO make some trys and build from here
+    return const Scaffold(
+      
     );
   }
 }
