@@ -23,9 +23,9 @@ class _stateScaffold extends State<PlaygroundScaffold> {
           })
         ],
       ),
-      body: const TabBarView(children: <Widget> [
-        Expanded(child: Text("Contact Data List"),),
-        Expanded(child: Text("Favorite List"))
+      body: TabBarView(children: <Widget> [
+        Container(child: Text("Contact Data List", textAlign: TextAlign.center,),alignment: Alignment.center,),
+        Container(child: Text("Favorite List", textAlign: TextAlign.center),alignment: Alignment.center),
       ]),
       bottomNavigationBar: const TabBar(tabs: <Widget>[
           Tab(icon: Icon(Icons.contacts_sharp), text: "Contactos"),
